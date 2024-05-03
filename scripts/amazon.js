@@ -97,5 +97,5 @@ document.querySelectorAll('.js-add-to-cart-button')
 document.querySelector('.js-search-button')
     .addEventListener('click', () => {
     const search = document.querySelector('.js-search-bar').value.toLowerCase();
-    window.location.href = `amazon.html?search=${search}`;
+    window.location.href = `index.html?search=${search}`;
     });
